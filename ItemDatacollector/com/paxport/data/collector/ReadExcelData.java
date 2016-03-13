@@ -1,5 +1,6 @@
 package com.paxport.data.collector;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -23,7 +24,8 @@ public class ReadExcelData {
         // An excel file name. You can create a file name with a full path
         // information.
         //
-        String filename = "/Users/meghanap/Desktop/Sample_Excel.xlsx";
+		String filename = "Resources/ItemData.xlsx";
+
 
         //
         // Create an ArrayList to store the data read from excel sheet.
