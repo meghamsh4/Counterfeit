@@ -6,8 +6,8 @@ Requirements :
 3. Fetch and store data from manufacturer into Server side remote storage
 
 API's:
-API 1: Boolean FetchItemData(ItemData itemData)
-API 2: Boolean UploadProductBatchData(ProductBatchData productBatchData)
+API 1: Boolean FetchItemData(String itemDataExcelSheet)
+API 2: Boolean UploadProductBatchData(String productBatchDataExcelSheet)
 
 
 Tools :
