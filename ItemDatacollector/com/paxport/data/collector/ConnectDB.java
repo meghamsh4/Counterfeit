@@ -10,7 +10,7 @@ public class ConnectDB {
 	    private final String password = "@Kingmaker2u";
 
 	    private String getConnectionUrl() {
-	        return url  + ":" + portNumber + ";databaseName=" + databaseName ;
+	        return url  + ":" + portNumber + ";databaseName=" + databaseName + "encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30";
 	    }
 
 	    private java.sql.Connection getConnection() {
